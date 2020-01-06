@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "foo.h"
+
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  Foo foo;
+  std::cout << "Hello, World! " << foo.Bar(10) << std::endl;
   return 0;
 }
